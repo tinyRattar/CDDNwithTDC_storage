@@ -1,0 +1,203 @@
+[05-10  18:45:56] ### Number of network parameters:59930
+[05-10  18:45:56] start training: epoch = 1000
+[05-10  19:14:57] Evaluate psnr(before|after) =  29.87|29.82 ssim = 0.9070|0.8969
+[05-10  19:14:57] file updated epoch:00010
+[05-10  19:43:50] Evaluate psnr(before|after) =  30.76|30.74 ssim = 0.9210|0.9171
+[05-10  19:43:50] file updated epoch:00020
+[05-10  20:12:48] Evaluate psnr(before|after) =  31.29|31.28 ssim = 0.9297|0.9273
+[05-10  20:12:48] file updated epoch:00030
+[05-10  20:41:48] Evaluate psnr(before|after) =  31.51|31.50 ssim = 0.9323|0.9291
+[05-10  20:41:48] file updated epoch:00040
+[05-10  21:10:42] Evaluate psnr(before|after) =  31.68|31.66 ssim = 0.9339|0.9296
+[05-10  21:10:42] file updated epoch:00050
+[05-10  21:39:40] Evaluate psnr(before|after) =  31.79|31.77 ssim = 0.9349|0.9313
+[05-10  21:39:40] file updated epoch:00060
+[05-10  22:08:39] Evaluate psnr(before|after) =  31.89|31.87 ssim = 0.9363|0.9324
+[05-10  22:08:39] file updated epoch:00070
+[05-10  22:37:34] Evaluate psnr(before|after) =  31.95|31.94 ssim = 0.9382|0.9357
+[05-10  22:37:34] file updated epoch:00080
+[05-10  23:06:30] Evaluate psnr(before|after) =  32.00|31.99 ssim = 0.9388|0.9364
+[05-10  23:06:30] file updated epoch:00090
+[05-10  23:35:29] Evaluate psnr(before|after) =  32.08|32.07 ssim = 0.9399|0.9378
+[05-10  23:35:29] file updated epoch:00100
+[05-11  00:04:29] Evaluate psnr(before|after) =  32.02|32.02 ssim = 0.9396|0.9376
+[05-11  00:04:29] file updated epoch:00110
+[05-11  00:33:26] Evaluate psnr(before|after) =  32.14|32.13 ssim = 0.9414|0.9393
+[05-11  00:33:26] file updated epoch:00120
+[05-11  01:02:22] Evaluate psnr(before|after) =  32.18|32.17 ssim = 0.9421|0.9403
+[05-11  01:02:22] file updated epoch:00130
+[05-11  01:31:22] Evaluate psnr(before|after) =  32.19|32.18 ssim = 0.9413|0.9392
+[05-11  01:31:22] file updated epoch:00140
+[05-11  02:00:20] Evaluate psnr(before|after) =  32.20|32.20 ssim = 0.9420|0.9404
+[05-11  02:00:20] file updated epoch:00150
+[05-11  02:29:16] Evaluate psnr(before|after) =  32.21|32.21 ssim = 0.9420|0.9402
+[05-11  02:29:16] file updated epoch:00160
+[05-11  02:58:19] Evaluate psnr(before|after) =  32.24|32.23 ssim = 0.9430|0.9414
+[05-11  02:58:19] file updated epoch:00170
+[05-11  03:27:17] Evaluate psnr(before|after) =  32.09|32.08 ssim = 0.9386|0.9365
+[05-11  03:27:17] file updated epoch:00180
+[05-11  03:56:20] Evaluate psnr(before|after) =  32.26|32.25 ssim = 0.9425|0.9409
+[05-11  03:56:20] file updated epoch:00190
+[05-11  04:25:18] Evaluate psnr(before|after) =  32.31|32.30 ssim = 0.9436|0.9421
+[05-11  04:25:18] file updated epoch:00200
+[05-11  04:54:17] Evaluate psnr(before|after) =  32.30|32.29 ssim = 0.9438|0.9422
+[05-11  04:54:17] file updated epoch:00210
+[05-11  05:23:14] Evaluate psnr(before|after) =  32.29|32.28 ssim = 0.9436|0.9420
+[05-11  05:23:14] file updated epoch:00220
+[05-11  05:52:12] Evaluate psnr(before|after) =  32.30|32.29 ssim = 0.9435|0.9421
+[05-11  05:52:12] file updated epoch:00230
+[05-11  06:21:13] Evaluate psnr(before|after) =  32.34|32.33 ssim = 0.9445|0.9431
+[05-11  06:21:13] file updated epoch:00240
+[05-11  06:50:14] Evaluate psnr(before|after) =  32.36|32.35 ssim = 0.9446|0.9432
+[05-11  06:50:14] file updated epoch:00250
+[05-11  07:19:14] Evaluate psnr(before|after) =  32.36|32.36 ssim = 0.9445|0.9432
+[05-11  07:19:14] file updated epoch:00260
+[05-11  07:48:13] Evaluate psnr(before|after) =  32.37|32.36 ssim = 0.9448|0.9434
+[05-11  07:48:13] file updated epoch:00270
+[05-11  08:17:12] Evaluate psnr(before|after) =  32.34|32.34 ssim = 0.9443|0.9431
+[05-11  08:17:12] file updated epoch:00280
+[05-11  08:46:16] Evaluate psnr(before|after) =  32.37|32.36 ssim = 0.9451|0.9438
+[05-11  08:46:16] file updated epoch:00290
+[05-11  09:15:16] Evaluate psnr(before|after) =  32.34|32.34 ssim = 0.9448|0.9435
+[05-11  09:15:17] file updated epoch:00300
+[05-11  09:44:20] Evaluate psnr(before|after) =  32.34|32.33 ssim = 0.9447|0.9435
+[05-11  09:44:20] file updated epoch:00310
+[05-11  10:13:20] Evaluate psnr(before|after) =  32.14|32.13 ssim = 0.9412|0.9404
+[05-11  10:13:20] file updated epoch:00320
+[05-11  10:42:17] Evaluate psnr(before|after) =  32.40|32.40 ssim = 0.9456|0.9444
+[05-11  10:42:17] file updated epoch:00330
+[05-11  11:11:13] Evaluate psnr(before|after) =  32.37|32.37 ssim = 0.9454|0.9442
+[05-11  11:11:13] file updated epoch:00340
+[05-11  11:40:10] Evaluate psnr(before|after) =  32.38|32.37 ssim = 0.9454|0.9442
+[05-11  11:40:10] file updated epoch:00350
+[05-11  12:09:09] Evaluate psnr(before|after) =  32.40|32.40 ssim = 0.9457|0.9445
+[05-11  12:09:09] file updated epoch:00360
+[05-11  12:38:05] Evaluate psnr(before|after) =  32.38|32.38 ssim = 0.9451|0.9439
+[05-11  12:38:05] file updated epoch:00370
+[05-11  13:07:04] Evaluate psnr(before|after) =  32.35|32.35 ssim = 0.9454|0.9441
+[05-11  13:07:04] file updated epoch:00380
+[05-11  13:36:00] Evaluate psnr(before|after) =  32.41|32.40 ssim = 0.9455|0.9442
+[05-11  13:36:00] file updated epoch:00390
+[05-11  14:05:00] Evaluate psnr(before|after) =  32.39|32.39 ssim = 0.9458|0.9445
+[05-11  14:05:00] file updated epoch:00400
+[05-11  14:33:58] Evaluate psnr(before|after) =  32.27|32.26 ssim = 0.9429|0.9414
+[05-11  14:33:58] file updated epoch:00410
+[05-11  15:02:58] Evaluate psnr(before|after) =  32.46|32.46 ssim = 0.9467|0.9456
+[05-11  15:02:58] file updated epoch:00420
+[05-11  15:31:55] Evaluate psnr(before|after) =  32.45|32.45 ssim = 0.9467|0.9456
+[05-11  15:31:55] file updated epoch:00430
+[05-11  16:00:50] Evaluate psnr(before|after) =  32.46|32.46 ssim = 0.9465|0.9451
+[05-11  16:00:50] file updated epoch:00440
+[05-11  16:29:49] Evaluate psnr(before|after) =  32.44|32.43 ssim = 0.9455|0.9444
+[05-11  16:29:49] file updated epoch:00450
+[05-11  16:58:48] Evaluate psnr(before|after) =  32.47|32.46 ssim = 0.9468|0.9456
+[05-11  16:58:48] file updated epoch:00460
+[05-11  17:27:47] Evaluate psnr(before|after) =  32.47|32.47 ssim = 0.9470|0.9460
+[05-11  17:27:47] file updated epoch:00470
+[05-11  17:56:45] Evaluate psnr(before|after) =  32.47|32.47 ssim = 0.9470|0.9459
+[05-11  17:56:45] file updated epoch:00480
+[05-11  18:25:45] Evaluate psnr(before|after) =  32.46|32.46 ssim = 0.9467|0.9457
+[05-11  18:25:45] file updated epoch:00490
+[05-11  18:54:43] Evaluate psnr(before|after) =  32.48|32.47 ssim = 0.9467|0.9456
+[05-11  18:54:43] file updated epoch:00500
+[05-11  19:23:42] Evaluate psnr(before|after) =  32.46|32.46 ssim = 0.9466|0.9454
+[05-11  19:23:42] file updated epoch:00510
+[05-11  19:52:39] Evaluate psnr(before|after) =  32.44|32.44 ssim = 0.9466|0.9454
+[05-11  19:52:39] file updated epoch:00520
+[05-11  20:21:40] Evaluate psnr(before|after) =  32.49|32.49 ssim = 0.9472|0.9462
+[05-11  20:21:40] file updated epoch:00530
+[05-11  20:50:34] Evaluate psnr(before|after) =  32.51|32.51 ssim = 0.9473|0.9462
+[05-11  20:50:34] file updated epoch:00540
+[05-11  21:19:34] Evaluate psnr(before|after) =  32.47|32.47 ssim = 0.9466|0.9455
+[05-11  21:19:34] file updated epoch:00550
+[05-11  21:48:32] Evaluate psnr(before|after) =  32.46|32.46 ssim = 0.9469|0.9460
+[05-11  21:48:32] file updated epoch:00560
+[05-11  22:17:29] Evaluate psnr(before|after) =  32.51|32.50 ssim = 0.9473|0.9464
+[05-11  22:17:29] file updated epoch:00570
+[05-11  22:46:26] Evaluate psnr(before|after) =  32.48|32.48 ssim = 0.9471|0.9461
+[05-11  22:46:26] file updated epoch:00580
+[05-11  23:15:29] Evaluate psnr(before|after) =  32.50|32.49 ssim = 0.9471|0.9460
+[05-11  23:15:29] file updated epoch:00590
+[05-11  23:44:29] Evaluate psnr(before|after) =  32.47|32.46 ssim = 0.9470|0.9459
+[05-11  23:44:29] file updated epoch:00600
+[05-12  00:13:30] Evaluate psnr(before|after) =  32.53|32.52 ssim = 0.9475|0.9464
+[05-12  00:13:30] file updated epoch:00610
+[05-12  00:42:28] Evaluate psnr(before|after) =  32.37|32.36 ssim = 0.9434|0.9410
+[05-12  00:42:28] file updated epoch:00620
+[05-12  01:11:26] Evaluate psnr(before|after) =  32.46|32.46 ssim = 0.9467|0.9455
+[05-12  01:11:26] file updated epoch:00630
+[05-12  01:40:29] Evaluate psnr(before|after) =  32.50|32.50 ssim = 0.9473|0.9465
+[05-12  01:40:29] file updated epoch:00640
+[05-12  02:09:26] Evaluate psnr(before|after) =  32.53|32.52 ssim = 0.9475|0.9465
+[05-12  02:09:26] file updated epoch:00650
+[05-12  02:38:23] Evaluate psnr(before|after) =  32.52|32.52 ssim = 0.9475|0.9467
+[05-12  02:38:23] file updated epoch:00660
+[05-12  03:07:24] Evaluate psnr(before|after) =  32.52|32.52 ssim = 0.9477|0.9468
+[05-12  03:07:24] file updated epoch:00670
+[05-12  03:36:20] Evaluate psnr(before|after) =  32.51|32.50 ssim = 0.9475|0.9464
+[05-12  03:36:20] file updated epoch:00680
+[05-12  04:05:24] Evaluate psnr(before|after) =  32.51|32.50 ssim = 0.9474|0.9464
+[05-12  04:05:24] file updated epoch:00690
+[05-12  04:34:20] Evaluate psnr(before|after) =  32.49|32.49 ssim = 0.9472|0.9463
+[05-12  04:34:20] file updated epoch:00700
+[05-12  05:03:20] Evaluate psnr(before|after) =  32.48|32.47 ssim = 0.9458|0.9443
+[05-12  05:03:20] file updated epoch:00710
+[05-12  05:32:17] Evaluate psnr(before|after) =  32.50|32.49 ssim = 0.9473|0.9462
+[05-12  05:32:17] file updated epoch:00720
+[05-12  06:01:18] Evaluate psnr(before|after) =  32.42|32.42 ssim = 0.9465|0.9455
+[05-12  06:01:18] file updated epoch:00730
+[05-12  06:30:14] Evaluate psnr(before|after) =  32.49|32.49 ssim = 0.9473|0.9461
+[05-12  06:30:14] file updated epoch:00740
+[05-12  06:59:13] Evaluate psnr(before|after) =  32.49|32.48 ssim = 0.9472|0.9461
+[05-12  06:59:13] file updated epoch:00750
+[05-12  07:28:08] Evaluate psnr(before|after) =  32.53|32.52 ssim = 0.9475|0.9464
+[05-12  07:28:08] file updated epoch:00760
+[05-12  07:57:03] Evaluate psnr(before|after) =  32.52|32.51 ssim = 0.9475|0.9465
+[05-12  07:57:03] file updated epoch:00770
+[05-12  08:26:02] Evaluate psnr(before|after) =  32.50|32.49 ssim = 0.9473|0.9463
+[05-12  08:26:02] file updated epoch:00780
+[05-12  08:55:03] Evaluate psnr(before|after) =  32.51|32.51 ssim = 0.9476|0.9465
+[05-12  08:55:04] file updated epoch:00790
+[05-12  09:24:01] Evaluate psnr(before|after) =  32.50|32.49 ssim = 0.9474|0.9464
+[05-12  09:24:02] file updated epoch:00800
+[05-12  09:53:03] Evaluate psnr(before|after) =  32.48|32.48 ssim = 0.9466|0.9457
+[05-12  09:53:03] file updated epoch:00810
+[05-12  10:22:04] Evaluate psnr(before|after) =  32.53|32.52 ssim = 0.9478|0.9468
+[05-12  10:22:04] file updated epoch:00820
+[05-12  10:51:03] Evaluate psnr(before|after) =  32.50|32.50 ssim = 0.9474|0.9464
+[05-12  10:51:03] file updated epoch:00830
+[05-12  11:20:01] Evaluate psnr(before|after) =  32.51|32.50 ssim = 0.9476|0.9466
+[05-12  11:20:01] file updated epoch:00840
+[05-12  11:48:58] Evaluate psnr(before|after) =  32.51|32.51 ssim = 0.9476|0.9466
+[05-12  11:48:58] file updated epoch:00850
+[05-12  12:17:57] Evaluate psnr(before|after) =  32.43|32.43 ssim = 0.9463|0.9454
+[05-12  12:17:58] file updated epoch:00860
+[05-12  12:46:57] Evaluate psnr(before|after) =  32.51|32.51 ssim = 0.9476|0.9467
+[05-12  12:46:57] file updated epoch:00870
+[05-12  13:16:00] Evaluate psnr(before|after) =  32.54|32.54 ssim = 0.9478|0.9470
+[05-12  13:16:00] file updated epoch:00880
+[05-12  13:44:59] Evaluate psnr(before|after) =  32.54|32.53 ssim = 0.9478|0.9469
+[05-12  13:44:59] file updated epoch:00890
+[05-12  14:13:57] Evaluate psnr(before|after) =  32.52|32.52 ssim = 0.9476|0.9466
+[05-12  14:13:57] file updated epoch:00900
+[05-12  14:42:56] Evaluate psnr(before|after) =  32.47|32.47 ssim = 0.9458|0.9448
+[05-12  14:42:57] file updated epoch:00910
+[05-12  15:11:57] Evaluate psnr(before|after) =  32.46|32.46 ssim = 0.9468|0.9458
+[05-12  15:11:57] file updated epoch:00920
+[05-12  15:40:58] Evaluate psnr(before|after) =  32.51|32.51 ssim = 0.9472|0.9461
+[05-12  15:40:58] file updated epoch:00930
+[05-12  16:09:58] Evaluate psnr(before|after) =  32.48|32.48 ssim = 0.9471|0.9461
+[05-12  16:09:58] file updated epoch:00940
+[05-12  16:38:56] Evaluate psnr(before|after) =  32.53|32.53 ssim = 0.9478|0.9469
+[05-12  16:38:56] file updated epoch:00950
+[05-12  17:07:57] Evaluate psnr(before|after) =  32.50|32.49 ssim = 0.9476|0.9467
+[05-12  17:07:58] file updated epoch:00960
+[05-12  17:36:56] Evaluate psnr(before|after) =  32.51|32.51 ssim = 0.9477|0.9468
+[05-12  17:36:56] file updated epoch:00970
+[05-12  18:05:57] Evaluate psnr(before|after) =  32.50|32.49 ssim = 0.9476|0.9467
+[05-12  18:05:57] file updated epoch:00980
+[05-12  18:34:54] Evaluate psnr(before|after) =  32.47|32.46 ssim = 0.9466|0.9455
+[05-12  18:34:55] file updated epoch:00990
+[05-12  19:03:52] Evaluate psnr(before|after) =  32.50|32.50 ssim = 0.9478|0.9469
+[05-12  19:03:53] file updated epoch:01000
+[05-12  19:03:53] file updated epoch:01000

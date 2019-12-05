@@ -1,0 +1,30 @@
+[05-09  14:14:51] ### Number of network parameters:141765
+[05-09  14:14:51] start training: epoch = 1000
+[05-09  16:14:56] Evaluate psnr(before|after) =  26.86|26.86 ssim = 0.8496|0.8496
+[05-09  16:14:56] file updated epoch:00010
+[05-09  18:14:51] Evaluate psnr(before|after) =  27.14|27.14 ssim = 0.8564|0.8564
+[05-09  18:14:51] file updated epoch:00020
+[05-09  20:14:27] Evaluate psnr(before|after) =  27.19|27.19 ssim = 0.8565|0.8565
+[05-09  20:14:27] file updated epoch:00030
+[05-09  22:13:37] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-09  22:13:37] file updated epoch:00040
+[05-10  00:12:53] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  00:12:53] file updated epoch:00050
+[05-10  02:12:14] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  02:12:14] file updated epoch:00060
+[05-10  04:11:38] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  04:11:38] file updated epoch:00070
+[05-10  06:10:56] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  06:10:56] file updated epoch:00080
+[05-10  08:10:16] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  08:10:16] file updated epoch:00090
+[05-10  10:09:34] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  10:09:34] file updated epoch:00100
+[05-10  12:08:52] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  12:08:52] file updated epoch:00110
+[05-10  14:08:13] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  14:08:14] file updated epoch:00120
+[05-10  16:07:32] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  16:07:32] file updated epoch:00130
+[05-10  18:06:52] Evaluate psnr(before|after) =  nan|nan ssim = nan|nan
+[05-10  18:06:52] file updated epoch:00140

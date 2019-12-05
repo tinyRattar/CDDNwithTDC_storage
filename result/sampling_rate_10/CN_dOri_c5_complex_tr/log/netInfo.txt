@@ -1,0 +1,221 @@
+[05-10  18:45:56] DataParallel(
+  (module): CN_Dense(
+    (layerList): ModuleList(
+      (0): subDenseNet(
+        (inConv): Conv2d(2, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (activ): ReLU()
+        (denseConv): denseConv(
+          (layerList): ModuleList(
+            (0): denseBlockLayer_origin(
+              (bn): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(16, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            )
+            (1): denseBlockLayer_origin(
+              (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2))
+            )
+            (2): denseBlockLayer_origin(
+              (bn): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(48, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(4, 4), dilation=(4, 4))
+            )
+          )
+        )
+        (transitionLayer): transitionLayer(
+          (bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(64, 32, kernel_size=(1, 1), stride=(1, 1))
+        )
+        (outConv): convLayer(
+          (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+      )
+      (1): dataConsistencyLayer_static()
+      (2): subDenseNet(
+        (inConv): Conv2d(2, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (activ): ReLU()
+        (denseConv): denseConv(
+          (layerList): ModuleList(
+            (0): denseBlockLayer_origin(
+              (bn): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(16, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            )
+            (1): denseBlockLayer_origin(
+              (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2))
+            )
+            (2): denseBlockLayer_origin(
+              (bn): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(48, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(4, 4), dilation=(4, 4))
+            )
+          )
+        )
+        (transitionLayer): transitionLayer(
+          (bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(64, 32, kernel_size=(1, 1), stride=(1, 1))
+        )
+        (outConv): convLayer(
+          (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+      )
+      (3): dataConsistencyLayer_static()
+      (4): subDenseNet(
+        (inConv): Conv2d(2, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (activ): ReLU()
+        (denseConv): denseConv(
+          (layerList): ModuleList(
+            (0): denseBlockLayer_origin(
+              (bn): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(16, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            )
+            (1): denseBlockLayer_origin(
+              (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2))
+            )
+            (2): denseBlockLayer_origin(
+              (bn): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(48, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(4, 4), dilation=(4, 4))
+            )
+          )
+        )
+        (transitionLayer): transitionLayer(
+          (bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(64, 32, kernel_size=(1, 1), stride=(1, 1))
+        )
+        (outConv): convLayer(
+          (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+      )
+      (5): dataConsistencyLayer_static()
+      (6): subDenseNet(
+        (inConv): Conv2d(2, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (activ): ReLU()
+        (denseConv): denseConv(
+          (layerList): ModuleList(
+            (0): denseBlockLayer_origin(
+              (bn): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(16, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            )
+            (1): denseBlockLayer_origin(
+              (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2))
+            )
+            (2): denseBlockLayer_origin(
+              (bn): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(48, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(4, 4), dilation=(4, 4))
+            )
+          )
+        )
+        (transitionLayer): transitionLayer(
+          (bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(64, 32, kernel_size=(1, 1), stride=(1, 1))
+        )
+        (outConv): convLayer(
+          (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+      )
+      (7): dataConsistencyLayer_static()
+      (8): subDenseNet(
+        (inConv): Conv2d(2, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (activ): ReLU()
+        (denseConv): denseConv(
+          (layerList): ModuleList(
+            (0): denseBlockLayer_origin(
+              (bn): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(16, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            )
+            (1): denseBlockLayer_origin(
+              (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), dilation=(2, 2))
+            )
+            (2): denseBlockLayer_origin(
+              (bn): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu): ReLU()
+              (conv): Conv2d(48, 16, kernel_size=(1, 1), stride=(1, 1))
+              (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+              (relu2): ReLU()
+              (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(4, 4), dilation=(4, 4))
+            )
+          )
+        )
+        (transitionLayer): transitionLayer(
+          (bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(64, 32, kernel_size=(1, 1), stride=(1, 1))
+        )
+        (outConv): convLayer(
+          (bn): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU()
+          (conv): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+      )
+      (9): dataConsistencyLayer_static()
+    )
+  )
+)
