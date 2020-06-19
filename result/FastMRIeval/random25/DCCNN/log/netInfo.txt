@@ -1,0 +1,142 @@
+[07-29  22:16:40] DataParallel(
+  (module): DC_CNN(
+    (layerList): ModuleList(
+      (0): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (1): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+      (2): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (3): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+      (4): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (5): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+      (6): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (7): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+      (8): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (9): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+    )
+  )
+)
+[07-29  22:20:05] DataParallel(
+  (module): DC_CNN(
+    (layerList): ModuleList(
+      (0): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (1): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+      (2): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (3): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+      (4): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (5): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+      (6): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (7): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+      (8): convBlock(
+        (Relu): ReLU()
+        (conv1): Conv2d(2, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (layerList): ModuleList(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (conv2): Conv2d(32, 2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (9): dataConsistencyLayer_static(
+        (trickConvList): ModuleList()
+      )
+    )
+  )
+)

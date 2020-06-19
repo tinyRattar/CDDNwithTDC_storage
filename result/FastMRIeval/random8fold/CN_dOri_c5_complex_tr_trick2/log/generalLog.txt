@@ -1,0 +1,62 @@
+[07-31  22:24:24] ### Number of network parameters:59930
+[07-31  22:24:26] start training: epoch = 1000
+[07-31  22:51:19] Evaluate psnr(before|after) =  26.90|26.90 ssim = 0.9375|0.9377
+[07-31  22:51:19] file updated epoch:00010
+[07-31  23:17:51] Evaluate psnr(before|after) =  27.10|27.10 ssim = 0.9405|0.9406
+[07-31  23:17:51] file updated epoch:00020
+[07-31  23:44:32] Evaluate psnr(before|after) =  27.21|27.21 ssim = 0.9431|0.9431
+[07-31  23:44:32] file updated epoch:00030
+[08-01  00:11:15] Evaluate psnr(before|after) =  27.31|27.31 ssim = 0.9440|0.9440
+[08-01  00:11:15] file updated epoch:00040
+[08-01  00:37:58] Evaluate psnr(before|after) =  27.38|27.38 ssim = 0.9448|0.9448
+[08-01  00:37:58] file updated epoch:00050
+[08-01  01:04:47] Evaluate psnr(before|after) =  27.44|27.44 ssim = 0.9453|0.9453
+[08-01  01:04:48] file updated epoch:00060
+[08-01  01:31:39] Evaluate psnr(before|after) =  27.50|27.50 ssim = 0.9459|0.9459
+[08-01  01:31:39] file updated epoch:00070
+[08-01  01:58:35] Evaluate psnr(before|after) =  27.53|27.53 ssim = 0.9463|0.9463
+[08-01  01:58:36] file updated epoch:00080
+[08-01  02:25:41] Evaluate psnr(before|after) =  27.45|27.45 ssim = 0.9456|0.9456
+[08-01  02:25:41] file updated epoch:00090
+[08-01  02:52:41] Evaluate psnr(before|after) =  27.54|27.54 ssim = 0.9464|0.9464
+[08-01  02:52:41] file updated epoch:00100
+[08-01  03:19:40] Evaluate psnr(before|after) =  27.51|27.51 ssim = 0.9461|0.9461
+[08-01  03:19:40] file updated epoch:00110
+[08-01  03:46:46] Evaluate psnr(before|after) =  27.58|27.58 ssim = 0.9467|0.9467
+[08-01  03:46:46] file updated epoch:00120
+[08-01  04:13:22] Evaluate psnr(before|after) =  27.61|27.61 ssim = 0.9470|0.9470
+[08-01  04:13:22] file updated epoch:00130
+[08-01  04:39:50] Evaluate psnr(before|after) =  27.61|27.61 ssim = 0.9471|0.9471
+[08-01  04:39:50] file updated epoch:00140
+[08-01  05:06:20] Evaluate psnr(before|after) =  27.62|27.62 ssim = 0.9471|0.9471
+[08-01  05:06:20] file updated epoch:00150
+[08-01  05:32:42] Evaluate psnr(before|after) =  27.58|27.58 ssim = 0.9468|0.9468
+[08-01  05:32:42] file updated epoch:00160
+[08-01  05:59:19] Evaluate psnr(before|after) =  27.63|27.63 ssim = 0.9472|0.9472
+[08-01  05:59:19] file updated epoch:00170
+[08-01  06:25:49] Evaluate psnr(before|after) =  27.61|27.61 ssim = 0.9472|0.9472
+[08-01  06:25:49] file updated epoch:00180
+[08-01  06:52:36] Evaluate psnr(before|after) =  27.64|27.64 ssim = 0.9474|0.9474
+[08-01  06:52:36] file updated epoch:00190
+[08-01  07:19:13] Evaluate psnr(before|after) =  27.66|27.66 ssim = 0.9475|0.9475
+[08-01  07:19:13] file updated epoch:00200
+[08-01  07:45:50] Evaluate psnr(before|after) =  27.65|27.65 ssim = 0.9476|0.9476
+[08-01  07:45:50] file updated epoch:00210
+[08-01  08:12:29] Evaluate psnr(before|after) =  27.66|27.66 ssim = 0.9476|0.9476
+[08-01  08:12:29] file updated epoch:00220
+[08-01  08:39:06] Evaluate psnr(before|after) =  27.67|27.67 ssim = 0.9477|0.9477
+[08-01  08:39:07] file updated epoch:00230
+[08-01  09:05:49] Evaluate psnr(before|after) =  27.62|27.62 ssim = 0.9471|0.9471
+[08-01  09:05:49] file updated epoch:00240
+[08-01  09:32:24] Evaluate psnr(before|after) =  27.68|27.68 ssim = 0.9478|0.9478
+[08-01  09:32:24] file updated epoch:00250
+[08-01  09:59:00] Evaluate psnr(before|after) =  27.69|27.69 ssim = 0.9479|0.9479
+[08-01  09:59:00] file updated epoch:00260
+[08-01  10:25:34] Evaluate psnr(before|after) =  27.69|27.69 ssim = 0.9479|0.9479
+[08-01  10:25:34] file updated epoch:00270
+[08-01  10:52:16] Evaluate psnr(before|after) =  27.69|27.69 ssim = 0.9479|0.9479
+[08-01  10:52:16] file updated epoch:00280
+[08-01  11:19:00] Evaluate psnr(before|after) =  27.70|27.70 ssim = 0.9479|0.9479
+[08-01  11:19:00] file updated epoch:00290
+[08-01  11:45:39] Evaluate psnr(before|after) =  27.70|27.70 ssim = 0.9480|0.9480
+[08-01  11:45:39] file updated epoch:00300
